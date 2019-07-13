@@ -1,3 +1,3 @@
-(![mickey mouse](https://www.ebay.ie/itm/Mickey-Mouse-Disney-Cartoon-Art-Colour-Pencil-Drawing-HQuality-Signed-A4-Print-/301169988413))
+!https://i.ebayimg.com/images/g/6EoAAOxyNq5SJSsz/s-l1600.jpg
 # Ghanian-culture
 akan names
