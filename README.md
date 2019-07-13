@@ -1,3 +1,3 @@
-![Alt text](image/img1.jpg?raw=true "Title")
+<img src="image/img1.jpg" width="200px">
 # Ghanian-culture
 akan names
