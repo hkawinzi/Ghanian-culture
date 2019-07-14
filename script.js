@@ -57,7 +57,7 @@ function checkGender(){
                     document.getElementById("result").innerHTML = "The day is on a friday." + " " + "Your akan name is" + maleName[5];
                     break;
                 case 6:
-                    document.getElementById("result").innerHTML = "The day is on a sunday." + " " + "Your akan name is" + maleName[6];
+                    document.getElementById("result").innerHTML = "The day is on a saturday." + " " + "Your akan name is" + maleName[6];
                     break;
                     default:
                     // console.console.log("pass");
