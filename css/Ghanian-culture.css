@@ -13,8 +13,4 @@
   strong {
     font-weight: bolder;
   }
-  input[type="radio"],
-input[type="checkbox"] {
-  box-sizing: border-box;
-  padding: 0;
-}
+  
