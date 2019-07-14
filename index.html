@@ -9,41 +9,25 @@
         <h1>GHANIAN-CULTURE</h1>
         </div>  
         <h2>HTML Forms</h2>
-        <p>CC,YY,MM,DD,mod are short forms of 
-            <ol>
-                <li> CC - is the century digits. For example 1989 has CC = 19</li>
-                <li>YY - is the Year digits (1989 has YY = 89)</li>
-                <li>MM -  is the Month</li>
-                <li>DD - is the Day of the month </li>
-                <li>mod - is the modulus function ( % )--A modulus function is a function which gives a positive output irrespective of the input</li>
-            </ol>
-        </p>
-    <form>
-        Akan names: <br>
-        <input type="radio" name="CC" > 
-        <input type="radio" name="YY" >
-        <input type="radio" name="MM">
-        <input type="radio" name="DD">
-        <input type="radio" name="mod">
-    </form>
+        <div class="form-group">
+            <label for="century">Century</label>
+            <input type="text" class="form-control" placeholder="enter the century" id="century">
+        </div>
+        <div class="form-group">
+            <label form="month">Month</label>
+            <input type="text" class="form-control" placeholder="enter the month of the year" id="month">
+        </div>
+        <div class="form-group">
+            <label form="monthDay">day of the month</label>
+            <input type="text" placeholder="enter the day of the month" class="form-control" id="monthday">
+        </div>
     <form>
         gender: <br>
         <input type="radio" name="gender" value="male"> male
         <br> 
         <input type="radio" name="gender" value="female"> female
         <br><br>
-    </form>
-    <form action = "php/action_page.php">
-        birthday: <br>
-        <input type="text" name="birthday">
-Enter a day before 1980-01-01:<br>
-<input type="date" name="bday" max="1979-12-31"><br><br>
-Enter a date after 2000-01-01:<br>
-<input type="date" name="bday" min="2000-01-02"><br><br>
-<input type="submit"> 
-</form>
-
-    </form>
+        <input type="submit">
     <h3>Akan names</h3>
         <input type="submit" value="Akan name">
         <input type="reset">    
