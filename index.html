@@ -1,44 +1,45 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Ghanian-culture</title>
-        <link href="css/Ghanian-culture.css" rel="stylesheet">
-    </head>
-    <body>
-        
-        <div class="jumbotron">
-        <h1>GHANIAN-CULTURE</h1>
-        </div>  
-        <h2>HTML Forms</h2>
-        <div class="form-group">
-            <label for="century">Century</label>
-            <input type="text" class="form-control" placeholder="Enter the century" id="century">
-        </div>
-        <div class="form-group">
-            <label for="year">year</label>
-            <input type="text" placeholder="Enter the year" class="form-control" id="year">
-        </div>
-        <div class="form-group">
-            <label form="month">Month</label>
-            <input type="text" class="form-control" placeholder="enter the month of the year" id="month">
-        </div>
-        <div class="form-group">
-            <label form="monthDay">day of the month</label>
-            <input type="text" placeholder="enter the day of the month" class="form-control" id="monthday">
-        </div>
-    <form>
-        gender: <br>
-        <input type="radio" name="gender" value="male"> male
-        <br> 
-        <input type="radio" name="gender" value="female"> female
-    </form>
-    <input type="submit" value="submit">
-    <br>
-        <a href="#result"><button type="button" name="submit">
-            
-onclick="checkDayOfWeek();">Calculate Day</button></a>
+<head>
+    <title>Ghanian-culture</title>
+    <link href="css/Ghanian-culture.css" rel="stylesheet">
+</head>
 
-    <h3 id="result">0</h3>  
-    <script src="js/script.js"></script>
-  </body>
+<body>
+    <div class="jumbotron">
+        <h1>GHANIAN-CULTURE</h1>
+    </div>
+    <h2>HTML Forms</h2>
+    <div class="form-group">
+        <label form="century">Century</label>
+        <input type="text" class="form-control" placeholder="Enter the century" id="century">
+    </div>
+    <div class="form-group">
+        <label for="year">year</label>
+        <input type="text" placeholder="Enter the year" class="form-control" id="year">
+    </div>
+    <div class="form-group">
+        <label form="month">Month</label>
+        <input type="text" class="form-control" placeholder="enter the month of the year" id="month">
+    </div>
+    <div class="form-group">
+        <label form="monthDay">day of the month</label>
+        <input type="text" placeholder="enter the day of the month" class="form-control" id="monthday">
+    </div>
+
+    gender: <br>
+    <input type="radio" name="gender" value="male"> male
+    <br>
+    <input type="radio" name="gender" value="female"> female
+    <br>
+    <button type="button" onclick="checkDayOfWeek();">SUBMIT</button>
+    <h1 id="result"></h1>
+    <img src="images/img2.jpg" alt="mickey-mouse" width="300">
+    <p>this is a website that enables you to input data and it will automatically calculate the day of the week that you
+        were born in.it also gives you a Ghanian name depending on your gender input and the day of the week you were
+        born in.</p>
+
+</body>
+<script src="js/script.js"></script>
+
 </html>
