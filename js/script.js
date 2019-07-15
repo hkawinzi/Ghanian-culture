@@ -16,6 +16,11 @@ function calculateDay(){
     dayOfWeek -=1;
     console.log(dayOfWeek); //Test the calculateDay function
     return (Math.floor(dayOfWeek));
+    if (dayOfWeek<0) {
+      dayOfWeek *=dayOfWeek;
+    } else {
+      return dayOfWeek
+    }
 }
 //main caller func
  function checkDayOfWeek(){
