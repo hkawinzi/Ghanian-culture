@@ -11,7 +11,7 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-image: url('https://steemitimages.com/DQmPesPeVVFLmSQ9c9aDTsBsboPTs96yFLNqyrZSYdUKXdi/20180118_182525.png');
-  }
+}
   strong {
     font-weight: bolder;
   }
@@ -21,4 +21,6 @@
   h1 {
     font-family: 'Kaushan Script', cursive;
   }
-  
+  p {
+    color: rgb(255, 253, 253);
+  }
