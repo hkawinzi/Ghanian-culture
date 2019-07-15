@@ -1,11 +1,15 @@
 var century, year, month, dayOfMonth, dayOfWeek, day;
-
+//arrays
+let daysOfWeek = ["sunday", "monday", "tuesday", "wednesday", "thursday", "friday", "saturday"];
+let maleNames = ["Kwasi", "Kwadwo", "Kwabena", "Kwaku", "Yaw", "Kofi", "Kwame"];
+//Get input
 function getInput(){
   century = parseInt(document.getElementById("century").value);
   year = parseInt(document.getElementById("year").value);
   month = parseInt(document.getElementById("month").value);
-  dayOfMonth = parseInt(document.getElementById("monthday").value);
+  dayOfMonth = parseInt(document.getElementById("dayOfMonth").value);
 }
+//Calculate func
 function calculateDay(){
     getInput();
     dayOfWeek = (((century/4) -2*century-1) + ((5*year/4) ) + ((26*(month+1)/10)) + dayOfMonth) % 7;
@@ -13,13 +17,13 @@ function calculateDay(){
     console.log(dayOfWeek); //Test the calculateDay function
     return (Math.floor(dayOfWeek));
 }
+//main caller func
  function checkDayOfWeek(){
      day = calculateDay();
       checkGender();
       console.log("The function runs");//Test chackDayOfWeek function
 }
-let daysOfWeek = ["sunday", "monday", "tuesday", "wednesday", "thursday", "friday", "saturday"];
-let maleNames = ["Kwasi", "Kwadwo", "Kwabena", "Kwaku", "Yaw", "Kofi", "Kwame"];
+//get selected radio button
 function checkGender(){
   var gen = document.getElementsByName("gender");
   if(gen[0].checked == true){
@@ -80,9 +84,8 @@ function checkGender(){
                   case 6 || -6:
                     document.getElementById("result").innerHTML = "The day is on a saturday." + " " + "Your akan name is ama";
                   break;
-                  var day=parseInt(form.day.value,10);
               }
-        break
+        break;
         default:
         console.log("pass");//Test gender switch
     }
