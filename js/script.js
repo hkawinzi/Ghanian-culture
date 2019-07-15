@@ -80,6 +80,7 @@ function checkGender(){
                   case 6 || -6:
                     document.getElementById("result").innerHTML = "The day is on a saturday." + " " + "Your akan name is ama";
                   break;
+                  var day=parseInt(form.day.value,10);
               }
         break
         default:
