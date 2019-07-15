@@ -8,9 +8,14 @@
   body {
     color: #141618;
   text-align: left;
-  background-color: rgb(212, 203, 203);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url('https://steemitimages.com/DQmPesPeVVFLmSQ9c9aDTsBsboPTs96yFLNqyrZSYdUKXdi/20180118_182525.png');
   }
   strong {
     font-weight: bolder;
+  }
+  .overlay {
+    background-color: rgba(0, 0, 0, 0.5);
   }
   
