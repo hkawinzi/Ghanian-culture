@@ -1,10 +1,10 @@
 # Projects name
 Ghanian-culture
-####brief description
+####  brief description
 this is a website that enables you to input data and it will automatically calculate the day of the week that you were born in.it also gives you a Ghananian name depending on your gender input and the day of the week you were born in...I'd like to mention that the biggest problems I encountered during this project was getting the code to run correctly
-####date-month-year
+#### date-month-year
 14-07-2019
-####description
+#### description
 the purpose for this website is to allow one to know which day they were born in and their Ghanian names as the dates changes each year.There are different styles used such as 
   -jumbotron
   -body color
